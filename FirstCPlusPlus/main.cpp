@@ -14,7 +14,8 @@ int main()
     // insert code here...
     cout << "Hello, World!" << endl;
     string word;
-    cin >> word;
+    getline(cin, word);
+  //  cin >> word;
     cout << "Hello " << word << endl;
     return 0;
 }
