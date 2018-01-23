@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int oldmain()
 {
     // insert code here...
     cout << "Hello, World!" << endl;
@@ -17,5 +17,6 @@ int main()
     getline(cin, word);
   //  cin >> word;
     cout << "Hello " << word << endl;
+    cout << (3+5* 43) << endl; 
     return 0;
 }
