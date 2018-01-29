@@ -10,12 +10,23 @@
 #define Controller_hpp
 
 #include <iostream>
+using namespace std;
+#include <string>
+#include <vector>
+
 
 class Controller
 {
+private:
+    int specialNumber;
+    string favoriteWord;
+    int * numberPointer;
+protected:
+    
 public :
     Controller();
     void start();
+    void useVector();
 };
 
 #endif /* Controller_hpp */

@@ -13,6 +13,8 @@ using namespace std;
 Controller :: Controller()
 {
     cout << "I am in the constructor" << endl;
+    this->specialNumber = 98765;
+    this->favoriteWord = "Spork";
 }
 
 void Controller :: start()
@@ -21,3 +23,9 @@ void Controller :: start()
     
 }
 
+void Controller :: useVector()
+{
+    vector<int> numbers;
+    
+    numbers.push_back(specialNumber);
+}
