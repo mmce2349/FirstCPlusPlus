@@ -20,7 +20,7 @@ Controller :: Controller()
 void Controller :: start()
 {
     cout << "I am in the start method" << endl;
-    
+    useVector();
 }
 
 void Controller :: useVector()
@@ -28,4 +28,8 @@ void Controller :: useVector()
     vector<int> numbers;
     
     numbers.push_back(specialNumber);
+    cout<< "this size of my vector is " << numbers.size() << endl;
+    numbers.pop_back();
+    
+    
 }
